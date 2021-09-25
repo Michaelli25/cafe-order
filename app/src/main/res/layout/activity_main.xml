@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C6F1F3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="435dp"
+        android:layout_height="180dp"
+        android:contentDescription="@string/CoffeeBannerString"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cafebanner" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="116dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginBottom="604dp"
+        android:fontFamily="@font/coiny"
+        android:text="@string/CafeString"
+        android:textColor="@color/lightgrey"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/coffeeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="232dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="@string/OrderCoffeeString"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/donutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="228dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="@string/OrderDonutsString"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/storeOrdersButton"
+        android:layout_width="128dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="@string/StoreOrdersString"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/currentOrderButton"
+        android:layout_width="133dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="612dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="@string/viewMyOrderString"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="215dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="244dp"
+        android:contentDescription="@string/OrderCoffeePicString"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/espressocoffee" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="321dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="444dp"
+        android:contentDescription="@string/OrderDonutsPicString"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/doughnuts" />
+
+</android.support.constraint.ConstraintLayout>

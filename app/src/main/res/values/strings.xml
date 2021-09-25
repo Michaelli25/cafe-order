@@ -1,0 +1,106 @@
+<resources>
+    //Main Activity Strings
+    <string name="app_name">Cafe</string>
+    <string name="CafeString">Café</string>
+    <string name="CoffeeBannerString">CoffeeBanner</string>
+    <string name="OrderCoffeePicString">OrderCoffeeBanner</string>
+    <string name="OrderDonutsPicString">OrderDonutsBanner</string>
+    <string name="newDonutFlavorsString">
+        <b>New Donut Flavors!</b> <br /> <br /> <br />
+        -Green Tea <br /> <br />
+        -Pumpkin (Limited Time Only!) <br /> <br />
+        -Cinnamon
+    </string>
+    <string name="viewMyOrderString">View My Order</string>
+    <string name="StoreOrdersString">Store Orders</string>
+    <string name="OrderCoffeeString">Order Coffee</string>
+    <string name="OrderDonutsString">Order Donuts</string>
+    //Order Donut Strings
+    <string name="DonutPriceString">Donuts are $1.39 each</string>
+    <string name="DonutFlavorString">Donut Flavor:</string>
+    <string name="OrderDonutAddString">Add to Order</string>
+    <string name="OrderDonutSubtotalString">Your Subtotal:</string>
+    <string name="DonutBannerString">DonutBanner</string>
+    <string name="SubtotalDonutsString">Temp</string>
+    <string name="DonutQuantityString">Quantity:</string>
+    <string name="AddDonut">Donut(s) added!</string>
+    <string name="RemoveDonutsString">Remove Donuts From Order</string>
+    <string name="RemoveDonut">Donut(s) removed!</string>
+    <string name="RemoveFail">Donut(s) were not in your order!</string>
+    <string-array name="quantity1">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="flavors">
+        <item>Green Tea</item>
+        <item>Pumpkin</item>
+        <item>Cinnamon</item>
+        <item>Chocolate</item>
+        <item>Blueberry</item>
+        <item>Glazed</item>
+        <item>Powdered</item>
+        <item>Apple</item>
+        <item>Jelly</item>
+    </string-array>
+    //Order Coffee Strings
+    <string name="ShortString">Short</string>
+    <string name="TallString">Tall</string>
+    <string name="GrandeString">Grande</string>
+    <string name="VentiString">Venti</string>
+    <string name="CreamString">Cream</string>
+    <string name="SyrupString">Syrup</string>
+    <string name="MilkString">Milk</string>
+    <string name="CaramelString">Caramel</string>
+    <string name="WhippedCreamString">Whipped Cream</string>
+    <string name="CoffeeSizeString">Coffee Size:</string>
+    <string name="CoffeeQuantityString">Quantity:</string>
+    <string name="AddonsString">Add Ons:</string>
+    <string name="OrderCoffeeAddString">Add to Order</string>
+    <string name="OrderCoffeeSubtotalString">Your Subtotal:</string>
+    <string name="SubtotalCoffeeString">Temp</string>
+    <string name="RemoveCoffeeString">Remove Coffee from Order</string>
+    <string name="CoffeePicString">CoffeeBannerPic</string>
+    <string name="CoffeePicString2">CoffeePic</string>
+    <string name="AddCoffee">Coffee(s) added!</string>
+    <string name="RemoveCoffee">Coffee(s) removed!</string>
+    <string name="RemoveFailCoffee">Coffee(s) were not in your order!</string>
+    <string name="Yes">YES</string>
+    <string name="No">NO</string>
+    <string-array name="quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    //My Orders Strings
+    <string name="orderString">Order Details</string>
+    <string name="removeOrder">Remove Selected Item</string>
+    <string name="placeOrder">Place Order</string>
+    <string name="orderSubtotal">Subtotal:</string>
+    <string name="tax">Tax:</string>
+    <string name="subtotalTotal">Total:</string>
+    <string name="taxString">temp</string>
+    <string name="totalString">temp</string>
+    <string name="orderSubtotalString">temp</string>
+    <string name="orderResults">temp</string>
+    <string name="orderDetailsImage">orderDetailsPic</string>
+    <string name="removeOrderSuccess">Item(s) removed!</string>
+    <string name="placeOrderSuccess">Order placed!</string>
+    <string name="placeOrderFail">There are no items in your order!</string>
+    <string name="deleteMessage">Do you want to delete this item?</string>
+    <string name="deleteTitle">Remove Item</string>
+    <string name="removeItem">Click on an Item to Remove</string>
+    //Store Orders Strings
+    <string name="cancelOrder">Click on an Order to Cancel</string>
+    <string name="cancelPopup">Do you want to cancel this order?</string>
+    <string name="cancelPopupTitle">Cancel Order</string>
+    <string name="exportDatabase">Export Order</string>
+    <string name="storeOrder">Store Orders</string>
+    <string name="storeOrderPic">Store Orders Pic</string>
+    <string name="storeOrderDetails">StoreOrderResults</string>
+    <string name="cancelOrderSuccess">Order Cancelled!</string>
+</resources>
